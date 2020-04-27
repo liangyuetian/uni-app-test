@@ -6,7 +6,7 @@ export default Vue.extend({
         }
     },
     onLoad() {
-
+        console.log('haha ,n')
     },
     methods: {
         go() {

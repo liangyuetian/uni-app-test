@@ -49,6 +49,12 @@ process.UNI_LIBRARIES.forEach(libraryName => {
     }
   ])
 })
+
+console.log('环境变量', process.env.NODE_ENV)
+if(process.env.NODE_ENV === 'production') {
+  plugins.push("transform-remove-console")
+}
+
 module.exports = {
   presets: [
     [

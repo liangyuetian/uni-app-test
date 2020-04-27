@@ -64,6 +64,7 @@
     "@vue/cli-plugin-typescript": "*",
     "@vue/cli-service": "~4.3.0",
     "babel-plugin-import": "^1.11.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "cross-env": "^7.0.2",
     "less-loader": "^6.0.0",
     "postcss-comment": "^2.0.0",
